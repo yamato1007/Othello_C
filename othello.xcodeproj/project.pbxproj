@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B4ACE85187E2F1000AAF22D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B4ACE84187E2F1000AAF22D /* main.c */; };
+		2B4ACE87187E2F1000AAF22D /* report10.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B4ACE86187E2F1000AAF22D /* report10.1 */; };
+		2B7E2D851895BECC00132F82 /* othello_putStone.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E2D7D1895BECC00132F82 /* othello_putStone.c */; };
+		2B7E2D861895BECC00132F82 /* othello_computer.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E2D7E1895BECC00132F82 /* othello_computer.c */; };
+		2B7E2D871895BECC00132F82 /* othello_human.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E2D7F1895BECC00132F82 /* othello_human.c */; };
+		2B7E2D881895BECC00132F82 /* othello_option.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E2D801895BECC00132F82 /* othello_option.c */; };
+		2B7E2D891895BECC00132F82 /* othello_output.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E2D811895BECC00132F82 /* othello_output.c */; };
+		2B7E2D8A1895BECC00132F82 /* othello_save.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E2D821895BECC00132F82 /* othello_save.c */; };
+		2B7E2D8B1895BECC00132F82 /* othello_stone.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E2D831895BECC00132F82 /* othello_stone.c */; };
+		2B7E2D8C1895BECC00132F82 /* othelo_do.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E2D841895BECC00132F82 /* othelo_do.c */; };
+		2B7E2DC01895D63300132F82 /* standard.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E2DBF1895D63300132F82 /* standard.c */; };
+		2B7E2DC21895D83500132F82 /* option.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E2DC11895D83500132F82 /* option.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B4ACE7F187E2F1000AAF22D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				2B4ACE87187E2F1000AAF22D /* report10.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2B4ACE81187E2F1000AAF22D /* othello */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = othello; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4ACE84187E2F1000AAF22D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		2B4ACE86187E2F1000AAF22D /* report10.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = report10.1; sourceTree = "<group>"; };
+		2B7E2D6718959B3700132F82 /* othello.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = othello.h; sourceTree = "<group>"; };
+		2B7E2D6818959DEA00132F82 /* standard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = standard.h; sourceTree = "<group>"; };
+		2B7E2D791895B22C00132F82 /* option.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = option.h; sourceTree = "<group>"; };
+		2B7E2D7D1895BECC00132F82 /* othello_putStone.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = othello_putStone.c; path = othello/othello_putStone.c; sourceTree = "<group>"; };
+		2B7E2D7E1895BECC00132F82 /* othello_computer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = othello_computer.c; path = othello/othello_computer.c; sourceTree = "<group>"; };
+		2B7E2D7F1895BECC00132F82 /* othello_human.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = othello_human.c; path = othello/othello_human.c; sourceTree = "<group>"; };
+		2B7E2D801895BECC00132F82 /* othello_option.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = othello_option.c; path = othello/othello_option.c; sourceTree = "<group>"; };
+		2B7E2D811895BECC00132F82 /* othello_output.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = othello_output.c; path = othello/othello_output.c; sourceTree = "<group>"; };
+		2B7E2D821895BECC00132F82 /* othello_save.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = othello_save.c; path = othello/othello_save.c; sourceTree = "<group>"; };
+		2B7E2D831895BECC00132F82 /* othello_stone.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = othello_stone.c; path = othello/othello_stone.c; sourceTree = "<group>"; };
+		2B7E2D841895BECC00132F82 /* othelo_do.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = othelo_do.c; path = othello/othelo_do.c; sourceTree = "<group>"; };
+		2B7E2DBF1895D63300132F82 /* standard.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = standard.c; sourceTree = "<group>"; };
+		2B7E2DC11895D83500132F82 /* option.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = option.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B4ACE7E187E2F1000AAF22D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B4ACE78187E2F1000AAF22D = {
+			isa = PBXGroup;
+			children = (
+				2B4ACE83187E2F1000AAF22D /* othello */,
+				2B4ACE82187E2F1000AAF22D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B4ACE82187E2F1000AAF22D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B4ACE81187E2F1000AAF22D /* othello */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B4ACE83187E2F1000AAF22D /* othello */ = {
+			isa = PBXGroup;
+			children = (
+				2B4ACE84187E2F1000AAF22D /* main.c */,
+				2B4ACE86187E2F1000AAF22D /* report10.1 */,
+				2B7E2D6718959B3700132F82 /* othello.h */,
+				2B7E2D7A1895B3A300132F82 /* othello */,
+				2B7E2D6818959DEA00132F82 /* standard.h */,
+				2B7E2D791895B22C00132F82 /* option.h */,
+				2B7E2DBF1895D63300132F82 /* standard.c */,
+				2B7E2DC11895D83500132F82 /* option.c */,
+			);
+			name = othello;
+			path = report10;
+			sourceTree = "<group>";
+		};
+		2B7E2D7A1895B3A300132F82 /* othello */ = {
+			isa = PBXGroup;
+			children = (
+				2B7E2D7D1895BECC00132F82 /* othello_putStone.c */,
+				2B7E2D7E1895BECC00132F82 /* othello_computer.c */,
+				2B7E2D7F1895BECC00132F82 /* othello_human.c */,
+				2B7E2D801895BECC00132F82 /* othello_option.c */,
+				2B7E2D811895BECC00132F82 /* othello_output.c */,
+				2B7E2D821895BECC00132F82 /* othello_save.c */,
+				2B7E2D831895BECC00132F82 /* othello_stone.c */,
+				2B7E2D841895BECC00132F82 /* othelo_do.c */,
+			);
+			name = othello;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B4ACE80187E2F1000AAF22D /* othello */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4ACE8A187E2F1000AAF22D /* Build configuration list for PBXNativeTarget "othello" */;
+			buildPhases = (
+				2B4ACE7D187E2F1000AAF22D /* Sources */,
+				2B4ACE7E187E2F1000AAF22D /* Frameworks */,
+				2B4ACE7F187E2F1000AAF22D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = othello;
+			productName = report10;
+			productReference = 2B4ACE81187E2F1000AAF22D /* othello */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B4ACE79187E2F1000AAF22D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = k13082kk;
+			};
+			buildConfigurationList = 2B4ACE7C187E2F1000AAF22D /* Build configuration list for PBXProject "othello" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B4ACE78187E2F1000AAF22D;
+			productRefGroup = 2B4ACE82187E2F1000AAF22D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B4ACE80187E2F1000AAF22D /* othello */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B4ACE7D187E2F1000AAF22D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4ACE85187E2F1000AAF22D /* main.c in Sources */,
+				2B7E2D851895BECC00132F82 /* othello_putStone.c in Sources */,
+				2B7E2D861895BECC00132F82 /* othello_computer.c in Sources */,
+				2B7E2D871895BECC00132F82 /* othello_human.c in Sources */,
+				2B7E2D881895BECC00132F82 /* othello_option.c in Sources */,
+				2B7E2D891895BECC00132F82 /* othello_output.c in Sources */,
+				2B7E2D8A1895BECC00132F82 /* othello_save.c in Sources */,
+				2B7E2D8B1895BECC00132F82 /* othello_stone.c in Sources */,
+				2B7E2D8C1895BECC00132F82 /* othelo_do.c in Sources */,
+				2B7E2DC01895D63300132F82 /* standard.c in Sources */,
+				2B7E2DC21895D83500132F82 /* option.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2B4ACE88187E2F1000AAF22D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2B4ACE89187E2F1000AAF22D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2B4ACE8B187E2F1000AAF22D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"OTHER_LDFLAGS[arch=*]" = "";
+				PRODUCT_NAME = othello;
+			};
+			name = Debug;
+		};
+		2B4ACE8C187E2F1000AAF22D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"OTHER_LDFLAGS[arch=*]" = "";
+				PRODUCT_NAME = othello;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B4ACE7C187E2F1000AAF22D /* Build configuration list for PBXProject "othello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4ACE88187E2F1000AAF22D /* Debug */,
+				2B4ACE89187E2F1000AAF22D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B4ACE8A187E2F1000AAF22D /* Build configuration list for PBXNativeTarget "othello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4ACE8B187E2F1000AAF22D /* Debug */,
+				2B4ACE8C187E2F1000AAF22D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B4ACE79187E2F1000AAF22D /* Project object */;
+}
